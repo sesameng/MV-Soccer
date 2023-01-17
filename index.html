@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MV Soccer 30</title>
+    <style>
+      body {
+        background: #fefbf6;
+        margin-top: 150px;
+        font-family: "Cerebri Sans", Helvetica, Verdana, Tahoma, sans-serif;
+      }
+      h1 {
+        color: #3d3c42;
+        text-align: center;
+        font-size: 50px;
+      }
+      h2 {
+        color: #3d3c42;
+        text-align: center;
+        font-weight: lighter;
+        font-size: 30px;
+      }
+      h4 {
+        text-align: center;
+        color: #3d3c42;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      p {
+        text-align: center;
+        color: #3d3c42;
+        font-weight: 450;
+        line-height: 40px;
+      }
+      hr {
+        width: 30%;
+      }
+      button {
+        display: block;
+        margin: 35px auto;
+        padding: 20px 30px;
+        border-radius: 8px;
+        background: linear-gradient(
+          91.7deg,
+          rgb(50, 25, 79) -4.3%,
+          rgb(122, 101, 149) 101.8%
+        );
+        color: #fefbf6;
+        font-size: 20px;
+        padding: 15px 20px;
+        border: 1px solid #7f5283;
+        border-radius: 30px;
+        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+      }
+      button:hover {
+        cursor: pointer;
+        transition: all 200ms ease;
+        background: #fefbf6;
+        color: #7f5283;
+      }
+      ul {
+        text-align: center;
+        list-style-type: none;
+        padding-inline-start: 0;
+        margin-top: 70px;
+        margin-bottom: 30px;
+      }
+      li {
+        margin: 25px auto;
+        font-size: 40px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 30%;
+        border-radius: 4px;
+      }
+      a {
+        text-decoration: none;
+      }
+      span {
+        font-size: 25px;
+      }
+      .mapLink {
+        color: #3d3c42;
+      }
+      .league-link {
+        color: #7f5283;
+      }
+      .league-link:hover {
+        color: rgba(0, 0, 0, 0.2);
+        transition: all 200ms ease;
+      }
+      .sponsor-join {
+        border: 2px solid;
+        border-radius: 4px;
+        width: 30%;
+        border-color: #7f5283;
+        margin: 100px auto;
+        padding-top: 15px;
+        padding-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>M<span>artha's</span> V<span>ineyard</span> Over 30 Soccer League</h1>
+    <h2>
+      Sundays Mornings @
+      <a
+        class="mapLink"
+        href="https://www.google.com/maps/place/Oak+Bluffs+Elementary+School/@41.446414,-70.5710247,17z/data=!3m1!4b1!4m5!3m4!1s0x89e5291eb6ddb035:0x814688d9c05f1c04!8m2!3d41.4464204!4d-70.5688901"
+        target="_blank"
+        ><em>Oak Bluffs School</em></a
+      >
+    </h2>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/052/227/original/IMG_2772.jpg?1667851560"
+      alt="soccer ball"
+    />
+    <h4>
+      A co-ed soccer league for adults <strong>30</strong> years old and over
+    </h4>
+    <hr />
+
+    <ul>
+      <li>
+        <a class="league-link" href="" target="_blank"> Schedule</a>
+      </li>
+      <li>
+        <a class="league-link" href="" target="_blank"> Teams</a>
+      </li>
+      <li>
+        <a class="league-link" href="" target="_blank"> Rankings</a>
+      </li>
+      <li>
+        <a class="league-link" href="" target="_blank"> Rules</a>
+      </li>
+    </ul>
+    <div class="sponsor-join">
+      <p>
+        We are always looking to expand the league <br />
+        If you are interested in being a business sponsor or a player please
+        contact us!
+      </p>
+      <button class="sponsor-Team">Sponsor a team</button>
+      <button class="join-Team">Join a team</button>
+    </div>
+    <script>
+      function sponsor() {
+        let business = prompt("What is the name of your business?");
+        let email = prompt("What is your email address?");
+        if (business.length > 0 && email.length > 0) {
+          alert("Thank You! We will be in touch!");
+        }
+      }
+      function join() {
+        let name = prompt("What is your full name?");
+        let age = prompt("How old are you?");
+        if (age > 30) {
+          alert("Thank You! We will be in touch!");
+        } else {
+          alert("Sorry, you must be 30 years old or older to join.");
+        }
+      }
+      let sponsorButton = document.querySelector(".sponsor-Team");
+      sponsorButton.addEventListener("click", sponsor);
+      let joinButton = document.querySelector(".join-Team");
+      joinButton.addEventListener("click", join);
+    </script>
+  </body>
+</html>
