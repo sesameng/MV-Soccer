@@ -38,9 +38,14 @@ footer {
 }
 
 h1 {
-  color: #3d3c42;
+  color: #fefbf6;;
   text-align: center;
   font-size: 50px;
+  background-color: #32194F;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-bottom: 35px;
+  padding-top: 35px;
 }
 
 h2 {
@@ -100,6 +105,7 @@ ul {
 
 .mapLink {
   color: #3d3c42;
+  text-decoration: underline;
 }
 
 .league-link {
@@ -117,6 +123,5 @@ ul {
   width: 400px;
   border-color: #7f5283;
   margin: 100px auto;
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
