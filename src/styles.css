@@ -1,6 +1,7 @@
 body {
   background: #fefbf6;
   font-family: "Cerebri Sans", Helvetica, Verdana, Tahoma, sans-serif;
+  width: 100%;
 }
 
 a {
@@ -41,11 +42,13 @@ h1 {
   color: #fefbf6;;
   text-align: center;
   font-size: 50px;
-  background-color: #32194F;
+  background-color: #49204d;
   margin-top: 0;
   margin-bottom: 50px;
   padding-bottom: 35px;
   padding-top: 35px;
+  font-family: 'Cinzel Decorative';
+  width: 100%;
 }
 
 h2 {
@@ -118,10 +121,20 @@ ul {
 }
 
 .sponsor-join {
-  border: 2px solid;
-  border-radius: 4px;
-  width: 400px;
   border-color: #7f5283;
   margin: 100px auto;
   padding: 20px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  li {
+    font-size: 34px;
+  }
 }
