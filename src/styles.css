@@ -1,0 +1,96 @@
+body {
+  background: #fefbf6;
+  font-family: "Cerebri Sans", Helvetica, Verdana, Tahoma, sans-serif;
+}
+h1 {
+  color: #3d3c42;
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  color: #3d3c42;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+}
+h4 {
+  text-align: center;
+  color: #3d3c42;
+  font-size: 20px;
+  font-weight: 400;
+}
+p {
+  text-align: center;
+  color: #3d3c42;
+  font-weight: 450;
+  line-height: 40px;
+}
+hr {
+  width: 30%;
+}
+button {
+  display: block;
+  margin: 35px auto;
+  padding: 20px 30px;
+  border-radius: 8px;
+  background: linear-gradient(
+    91.7deg,
+    rgb(50, 25, 79) -4.3%,
+    rgb(122, 101, 149) 101.8%
+  );
+  color: #fefbf6;
+  font-size: 20px;
+  padding: 15px 20px;
+  border: 1px solid #7f5283;
+  border-radius: 30px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+button:hover {
+  cursor: pointer;
+  transition: all 200ms ease;
+  background: #fefbf6;
+  color: #7f5283;
+}
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+li {
+  margin: 25px auto;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  border-radius: 4px;
+}
+a {
+  text-decoration: none;
+}
+span {
+  font-size: 25px;
+}
+.mapLink {
+  color: #3d3c42;
+}
+.league-link {
+  color: #7f5283;
+}
+.league-link:hover {
+  color: rgba(0, 0, 0, 0.2);
+  transition: all 200ms ease;
+}
+.sponsor-join {
+  border: 2px solid;
+  border-radius: 4px;
+  width: 400px;
+  border-color: #7f5283;
+  margin: 100px auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
