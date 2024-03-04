@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-.join-team {
+a.join-team {
   display: block;
   margin: 35px auto;
   padding: 20px 30px;
@@ -25,6 +25,7 @@ a {
   border: 1px solid #7f5283;
   border-radius: 30px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+  width: 25%;
 }
 
 button:hover {
@@ -45,10 +46,11 @@ header {
 }
 
 h1 {
-  color: #fefbf6;;
+  color: #49204d;
   text-align: center;
   font-size: 50px;
-  background-color: #49204d;
+  font-weight: 900;
+  background-color: #fefbf6;
   margin-bottom: 50px;
   padding-bottom: 35px;
   padding-top: 35px;
@@ -81,9 +83,6 @@ i {
   margin: 10px;
 }
 
-img {
-
-}
 
 li {
   margin: 25px auto;
@@ -109,9 +108,11 @@ ul {
   margin-bottom: 70px;
 }
 
-.mapLink {
-  color: #3d3c42;
-  text-decoration: underline;
+.field {
+  display: block;
+  margin: 20px auto;
+  max-width: 30%;
+  border-radius: 4px;
 }
 
 .league-link {
@@ -123,6 +124,18 @@ ul {
   transition: all 200ms ease;
 }
 
+
+.logo {
+  position: relative;
+  border-radius: 70px;
+  max-height: 100px;
+}
+
+.mapLink {
+  color: #3d3c42;
+  text-decoration: underline;
+}
+
 .navbar {
   background-color: #49204d;
   margin-bottom: 5px;
@@ -130,7 +143,7 @@ ul {
 }
 
 .navbar-nav {
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .nav-link {
@@ -142,19 +155,6 @@ ul {
   border-color: #7f5283;
   margin: 100px auto;
   padding: 20px;
-}
-
-.field {
-  display: block;
-  margin: 0 auto;
-  max-width: 30%;
-  border-radius: 4px;
-}
-
-.logo {
-  position: relative;
-  border-radius: 70px;
-  max-height: 100px;
 }
 
 .vfa {
@@ -175,4 +175,14 @@ ul {
   li {
     font-size: 34px;
   }
+  .field {
+    max-width: 45%;
+  }
+ .vfa {
+  font-size: 12px;
+ }
+
+ a.join-team {
+  width: 40%;
+ }
 }
