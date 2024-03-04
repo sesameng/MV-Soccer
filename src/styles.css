@@ -9,7 +9,7 @@ a {
   text-decoration: none;
 }
 
-button {
+.join-team {
   display: block;
   margin: 35px auto;
   padding: 20px 30px;
@@ -82,10 +82,7 @@ i {
 }
 
 img {
-  display: block;
-  margin: 0 auto;
-  max-width: 30%;
-  border-radius: 4px;
+
 }
 
 li {
@@ -126,10 +123,45 @@ ul {
   transition: all 200ms ease;
 }
 
+.navbar {
+  background-color: #49204d;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+.navbar-nav {
+  margin-top: 0;
+}
+
+.nav-link {
+  color:#fefbf6;
+  font-size: 24px;
+}
+
 .sponsor-join {
   border-color: #7f5283;
   margin: 100px auto;
   padding: 20px;
+}
+
+.field {
+  display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  border-radius: 4px;
+}
+
+.logo {
+  position: relative;
+  border-radius: 70px;
+  max-height: 100px;
+}
+
+.vfa {
+  font-family: 'Cinzel Decorative';
+  font-size: 20px;
+  color: #fefbf6;
+
 }
 
 @media (max-width: 900px) {
